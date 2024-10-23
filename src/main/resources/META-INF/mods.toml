@@ -1,0 +1,21 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "MIT"
+[[mods]]
+modId = "bizarrearmors"
+version = "${file.jarVersion}"
+displayName = "Bizarre Armors"
+updateJSONURL = "https://my.update.url"
+displayURL = "https://my.display.url"
+logoFile = "assets/bizarrearmors/logo.png"
+authors = "epicWolfLP"
+description = '''
+A short description here.
+'''
+
+[[dependencies.bizarrearmors]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5]"
+ordering = "NONE"
+side = "BOTH"
